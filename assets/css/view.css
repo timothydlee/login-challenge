@@ -48,15 +48,8 @@ body {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary.active,
-.open > .dropdown-toggle.btn-primary {
-	background: black;
-}
-
-.btn-primary:active,
-.btn-primary.active {
-	background: #007299;
-	box-shadow: none;
+.btn-primary.active{
+	background: #020202;
 }
 
 .btn.sharp {
@@ -65,4 +58,19 @@ body {
 
 .top-buffer {
 	margin-top: 3%;
+}
+
+/*	FONT AWESOME LINKS	*/
+/*.link-icons {
+	text-align: center;
+}*/
+
+.link-icons a {
+	color: #020202;
+	text-align: center;
+	font-size: 2em;
+}
+
+.link-icons a:not(:first-child) {
+    margin-left: 15%;
 }

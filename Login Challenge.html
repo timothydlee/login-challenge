@@ -1,55 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="">
-		<meta name="author" content="">
-		<title>BMF LOGIN</title>
-		<!-- jQuery for Bootstrap -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<!-- Bootstrap CDN -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<!-- My CSS -->
-		<link rel="stylesheet" type="text/css" href="assets/css/view.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>BMF LOGIN</title>
+	<!-- Font Awesome for Icons -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+	<!-- jQuery for Bootstrap -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- My CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/view.css">
+</head>
 
-	<body>
-		<!-- Start Overall Container -->
-		<div class="container">
-			<!-- Start Title Header -->
-			<div class="row">
-				<div class="col-md-9 title_heading">
-					<font face="BadMofo">BAD MOTHER FUCKER LOGIN CHALLENGE</font>
-				</div>
+<body>
+	<!-- Start Overall Container -->
+	<div class="container">
+		<!-- Start Title Header -->
+		<div class="row">
+			<div class="col-md-12 title_heading">
+				<font face="BadMofo">BAD MOTHER FUCKER LOGIN CHALLENGE</font>
 			</div>
-			<!-- End Title Header -->
-			<!-- Start Login Box -->
-			<div class="row" id="login-section">
-				<div class="col-md-4"></div>
-				<div class="col-md-4">
-					<section class="login-form">
-						<form method="post" action="#" role="login">
-							<input type="email" name="email" placeholder="Email" required="" class="form-control input-lg sharp" />
-							<input type="password" class="form-control input-lg top-buffer" id="password" placeholder="Password" required="" />
-							<button type="submit" name="go" class="btn sharp btn-lg btn-primary btn-block top-buffer">Sign in</button>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox"> Remember me
-								</label>
-							</div>
-							<div>
-								<a href="#">Create account</a> or <a href="#">Forgot password?</a>
-							</div>
-						</form>
-					</section>
-				</div>
-				<div class="col-md-4"></div>
-			</div>
-			<!-- End Login Box -->
 		</div>
-		<!-- End Overall Container -->
-	</body>
+		<!-- End Title Header -->
+		<!-- Start Login Box -->
+		<div class="row" id="login-section">
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<section class="login-form">
+					<p>Login using one of the following methods: </p>
+					<p class="link-icons">
+						<a href="#" title="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="#" title="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="#" title="linked-in"><i class="fa fa-linkedin-square"></i></a>
+					</p>
+					<p>Or login using your email address: </p>
+					<form method="post" action="#" role="login">
+						<input type="email" name="email" placeholder="Email" required="" class="form-control input-lg sharp" />
+						<input type="password" class="form-control input-lg top-buffer" id="password" placeholder="Password" required="" />
+						<button type="submit" name="go" class="btn sharp btn-lg btn-primary btn-block top-buffer">Sign in</button>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox"> Remember me
+							</label>
+						</div>
+						<div>
+							<a href="#">Create account</a> or <a href="#">Forgot password?</a>
+						</div>
+					</form>
+				</section>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+		<!-- End Login Box -->
+	</div>
+	<!-- End Overall Container -->
+</body>
 
 </html>
