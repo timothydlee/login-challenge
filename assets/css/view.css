@@ -5,30 +5,65 @@
 //----------------------------------------------------------------------------
 */
 
+/*----------------------------------------------------------------------------
+// Body
+//----------------------------------------------------------------------------
+*/
 body {
-	background-color: #ffd101;
+	height: 100%;
+  background: linear-gradient(90deg, #972b1f 50%, #be8e1f 50%);
+
 }
+
+p,
+input,
+button {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div a {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;	
+}
+
+/*----------------------------------------------------------------------------
+// Custom Font
+//----------------------------------------------------------------------------
+*/
 
 @font-face {
 	font-family: "BadMofo";
 	src: url("../fonts/BadMofo.ttf");
+	color: #ffd101;
 }
+
+/*----------------------------------------------------------------------------
+// Login Section
+//----------------------------------------------------------------------------
+*/
 
 #login-section {
 	margin-left: 0;
 }
 
-/*.border {
-	border: 2px solid #020202;
-}*/
+.main-section {
+	background: #FFDB3A;
+	border: 2px groove #0E1116;
+}
 
 .title_heading {
 	font-size: 4em;
 	margin: 20% 15% 3%;
 }
 
-
-/* Customizing buttons from bootstrap standard */
+/*----------------------------------------------------------------------------
+// Bootstrap Customization
+//
+// Customizing buttons from bootstrap standard
+//----------------------------------------------------------------------------
+*/
 
 .btn {
 	padding: 14px 24px;
@@ -45,7 +80,7 @@ body {
 }
 
 .btn-primary {
-	background: #ffd101;
+	background-color: #9C7F00;
 	color: #ffffff;
 }
 
@@ -56,6 +91,10 @@ body {
 	background: #020202;
 }
 
+.btn-primary:active:focus {
+	background: #972b1f;
+}
+
 .btn.sharp {
 	border-radius: 0;
 }
@@ -64,15 +103,23 @@ body {
 	margin-top: 3%;
 }
 
-/*	FONT AWESOME LINKS	*/
-/*.link-icons {
-	text-align: center;
-}*/
+/*----------------------------------------------------------------------------
+// Font Awesome Icons
+//
+// Customizing buttons from bootstrap standard
+//----------------------------------------------------------------------------
+*/
 
 .link-icons a {
-	color: #020202;
+	color: #9C7F00;
 	text-align: center;
 	font-size: 2em;
+}
+
+.link-icons a:hover,
+.link-icons a:focus,
+.link-icons a:active {
+	color: #020202;;
 }
 
 .link-icons a:not(:first-child) {
